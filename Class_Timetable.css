@@ -1,0 +1,24 @@
+h1 {
+    color: brown; 
+    background-color: tan;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+    width: 680px;
+    height: 60px;
+}
+.text {
+    background-color: tan;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    width: 700px;
+    height: 370px;
+    color: brown;
+}
