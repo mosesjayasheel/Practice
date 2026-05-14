@@ -1,0 +1,18 @@
+.title {
+    color: rgb(222, 184, 135);
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border: 2px solid rgb(222, 184, 135);
+}
+h2 {
+    font-weight: bold;
+    text-align: left;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+body {
+    background-image: url(c:\Users\moses\Desktop\picofme (1).png);
+}
