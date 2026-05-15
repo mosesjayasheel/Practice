@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navigation Bar</title>
+        <style>
+            .container {
+                background-image: url("https://media.licdn.com/dms/image/v2/C5612AQG7JvlGDX17ZQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1612239454139?e=2147483647&v=beta&t=KFOtOZ1PgWdp3YcbHovHBKNazdvv1QBAOOb9_7AQtdU");
+                background-color: black;
+                background-attachment: fixed;
+                align-content: center;
+                padding: 10px;
+                border: 5px solid black;
+                background-size: cover;
+            }
+            h1 {
+                color: white;
+                font-size: 30px;
+                background-color: black;
+                text-align: center;
+            }
+            p {
+                color: brown;
+                font-size: 20px;
+                background-color: burlywood;
+                text-align: center;
+            }
+            .box { 
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .nav {
+                 border-radius: 10px;
+                background-color: yellow;
+                align-items: center;
+                margin: 10px;
+                width: 90px;
+                height: 50px;
+                display: flex;
+            }
+            a {
+                text-decoration: none;
+                color: blueviolet;
+                font-size: 20px;
+                font-weight: bold;
+                margin: auto;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1> ABC Company</h1>
+        <p> Turning Problems into Solutions.</p>
+        </div>
+        <hr>
+        <div class="box">
+            <div class="nav">
+                <a href="#">Home</a>
+            </div>
+                <div class="nav">
+                <a href="#">About Us</a>
+            </div>
+                    <div class="nav">
+                <a href="#">Services</a>
+            </div>
+                    <div class="nav">
+                <a href="#">Contact Us</a>
+            </div>
+
+        </div>
+    </body>
+</html>
