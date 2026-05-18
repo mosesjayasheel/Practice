@@ -1,0 +1,38 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 150px;
+    height: auto;
+    /*object-fit: cover;*/
+    overflow: hidden;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+}
+.Menu {
+    padding: 10px;
+    border: 15px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.Menu:hover {
+    background-color: white;
+    color: red;
+}
