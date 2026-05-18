@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            text-align: center;
+        }
+        @keyframes move{
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(100px);
+            }
+        }         
+            
+        .box {
+            width: 200px;
+            height: auto;
+            color: blue;
+        }
+        .title {
+            width: 500px;
+            height: auto;
+            color: black
+        }
+        .btn {
+            width: 80px;
+            height: 30px;
+            background-color: hotpink;
+            color: whitesmoke;
+            cursor: pointer;
+            transition: 2s;
+            border-radius: 10px;
+            border-color: black;
+        }
+        button:hover {
+            background-color: chartreuse;
+        }
+        @media (max-width: 480px) {
+            .container {
+                width: 100%;
+                background-color: red;
+                font-size: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        @media (min-width: 481px) and (max-width: 768px) {
+            .container {
+                width: 100%;
+                background-color: yellow;
+                font-size: 20px;
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                align-items: center;
+            }    
+        }
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .container {
+                width: 100%;
+                background-color: orange;
+                font-size: 20px;
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                align-items: center;
+            }    
+        }
+        @media (min-width: 1025px) {
+            .container {
+                width: 100%;
+                background-color: skyblue;
+                font-size: 20px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                animation: move 5s infinite alternate;
+            }    
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>90 Days of Coding journey:</h2>
+        </div>
+        <div class="title">
+            <p> This is complete learning of my week1 into the coding journey. If you want to be part of this journey, click on the Join Now button. </p>
+        </div>
+        <button class="btn">Join Now</button>
+        
+    </div>
+</body>
+</html>
